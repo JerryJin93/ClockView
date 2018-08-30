@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="DigitalClockView">
+        <attr name="android:padding"/>
+        <attr name="android:textSize"/>
+        <attr name="style" format="enum">
+            <enum name="exposed" value="1"/>
+        </attr>
+    </declare-styleable>
+</resources>

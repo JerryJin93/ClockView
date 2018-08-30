@@ -1,9 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <declare-styleable name="AnalogClockView">
-        <attr name="radius" format="dimension"/>
-        <attr name="clockFaceColor" format="color"/>
-        <attr name="lineColor" format="color"/>
-        <attr name="scaleLineColor" format="color"/>
+        <attr name="android:padding"/>
+        <attr name="android:textSize"/>
+        <attr name="hourPointerWidth" format="dimension"/>
+        <attr name="minutePointerWidth" format="dimension"/>
+        <attr name="secondPointerWidth" format="dimension"/>
+        <attr name="pointerCornerRadius" format="dimension"/>
+        <attr name="pointerTailLength" format="dimension"/>
+        <attr name="clockFace" format="enum">
+            <enum name="black" value="0x10"/>
+            <enum name="white" value="0x11"/>
+        </attr>
+        <attr name="hourPointerColor" format="color"/>
+        <attr name="minutePointerColor" format="color"/>
+        <attr name="secondPointerColor" format="color"/>
+        <attr name="scaleLongColor" format="color"/>
+        <attr name="scaleShortColor" format="color"/>
     </declare-styleable>
 </resources>
